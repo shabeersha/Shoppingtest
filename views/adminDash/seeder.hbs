@@ -1,0 +1,33 @@
+<h1>Seeder</h1>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <h1>Product Seeder</h1>
+        <form action="/adminDash/seeder" method="post">
+            <div class="form-group">
+                <label for="text">Title</label>
+                <input type="text" id="title" name="title" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="text">Description</label>
+                <textarea class="form-control" rows="3" id="description" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="Price">Price</label>
+                <input type="number" id="price" name="price" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="comment">Imagepath</label>
+                <textarea class="form-control" rows="3" id="imagepath" name="imagepath"></textarea>
+            </div>
+
+            <!--<input type="hidden" name="_csrf" value="{{csrfToken}}">-->
+            <button type="submit" >Push</button>&nbsp;&nbsp;
+            <button type="reset">Clear</button>
+
+        </form>
+
+    </div>
+</div>
+<br>
+<br>
